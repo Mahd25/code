@@ -13,6 +13,15 @@
     <input type="text" id="nameInput">
     <button onclick="sayHello()">Submit</button>
     <p id="greeting"></p>
+
+	<script>
+    	function sayHello() {
+            // گرفتن ورودی از کاربر
+            var name = document.getElementById("nameInput").value;
+            // چاپ پیام خوش‌آمدگویی
+            document.getElementById("greeting").innerText = "hello, " + name;
+        }
+    </script>
 </body>
   
 </html>
